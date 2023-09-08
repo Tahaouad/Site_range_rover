@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+<body>
+     <section class="sec">
+        <header>
+            <a href="#"><img src="Images/logo.png" alt="" sizes="5px" class="logo"></a>
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">What's new</a></li>
+                <li><a href="#">Services</a></li>
+                <li><a href="#">Contact us</a></li>
+
+            </ul>
+        </header>
+        <div class="content">
+            <div class="textBox">
+                <h2>That's what<br><span>I like</span></h2>
+                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Iure ipsum odio, ducimus perspiciatis sint est saepe, asperiores accusantium culpa architecto labore accusamus, dignissimos blanditiis sed tempore porro aliquid laudantium eius.</p>
+                <a href="#">View our cars</a>
+            </div>
+            <div class="imgBox">
+                <img class="range" src="Images/V1.png" alt="">
+            </div>
+        </div>
+        <ul class="CARS">
+            <li><img src="Images/V11.png" class="V1" onclick="imgtrans('Images/V11.png')"></li>
+            <li><img src="Images/V2.png" class="V2"  onclick="imgtrans('Images/V2.png')"></li>
+            <li><img src="Images/V3.png" class="V3"  onclick="imgtrans('Images/V3.png')"></li>
+        </ul>
+        <ul class="sci">
+            <li><a href="#"><img src="Images/facebook.png" ></a></li>
+            <li><a href="#"><img src="Images/instagram.png" ></a></li>
+            <li><a href="#"><img src="Images/twitter.png" ></a></li>
+        </ul>
+            
+    </section>
+    <script type="text/javascript">
+        function imgtrans(x){
+            document.querySelector('.range').src=x;
+        }
+    </script>
+</body>
+</html>
